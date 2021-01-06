@@ -7,3 +7,5 @@ os.mkdir(tm)
 x = n + tm
 os.chdir(x)
 f = open(tt, "w")
+f.writesline('hello world')
+f.close()
